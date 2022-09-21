@@ -1,58 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-19T14:39:56 IST" name="Default suite" finished-at="2022-09-19T14:41:05 IST" duration-ms="69764">
+  <suite started-at="2022-09-21T09:30:35 IST" name="Default suite" finished-at="2022-09-21T09:31:22 IST" duration-ms="46313">
     <groups>
     </groups>
-    <test started-at="2022-09-19T14:39:56 IST" name="Default test" finished-at="2022-09-19T14:41:05 IST" duration-ms="69764">
+    <test started-at="2022-09-21T09:30:35 IST" name="Default test" finished-at="2022-09-21T09:31:22 IST" duration-ms="46313">
       <class name="automation_mobileworld.HomePo">
-        <test-method signature="dumb()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:39:56 IST" name="dumb" finished-at="2022-09-19T14:40:11 IST" duration-ms="15457" status="PASS">
+        <test-method signature="allmobiles()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:35 IST" name="allmobiles" finished-at="2022-09-21T09:30:42 IST" duration-ms="7200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dumb -->
-        <test-method signature="dumb0()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:11 IST" name="dumb0" finished-at="2022-09-19T14:40:19 IST" duration-ms="8063" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- allmobiles -->
+        <test-method signature="apple()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:42 IST" name="apple" finished-at="2022-09-21T09:30:47 IST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method signature="contact()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:47 IST" name="contact" finished-at="2022-09-21T09:30:52 IST" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method signature="homenav()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:52 IST" name="homenav" finished-at="2022-09-21T09:30:56 IST" duration-ms="4825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homenav -->
+        <test-method signature="latestnav()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:56 IST" name="latestnav" finished-at="2022-09-21T09:31:01 IST" duration-ms="4515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- latestnav -->
+        <test-method signature="lenovo()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:01 IST" name="lenovo" finished-at="2022-09-21T09:31:06 IST" duration-ms="4803" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Apple"}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [be74e8715423e3b696634f2c368bf66c, findElement {using=link text, value=Apple}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54454/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be74e8715423e3b696634f2c368bf66c]]>
+              <![CDATA[expected [https://mobileworld.banyanpro.com/#lenovo] but found [https://mobileworld.banyanpro.com/]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Apple"}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [be74e8715423e3b696634f2c368bf66c, findElement {using=link text, value=Apple}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54454/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be74e8715423e3b696634f2c368bf66c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at automation_mobileworld.HomePageLand.clickApple(HomePageLand.java:80)
-at automation_mobileworld.HomePo.dumb0(HomePo.java:42)
+              <![CDATA[java.lang.AssertionError: expected [https://mobileworld.banyanpro.com/#lenovo] but found [https://mobileworld.banyanpro.com/]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at automation_mobileworld.HomePo.lenovo(HomePo.java:91)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -81,178 +69,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dumb0 -->
-        <test-method signature="dumb1()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:19 IST" name="dumb1" finished-at="2022-09-19T14:40:26 IST" duration-ms="7009" status="PASS">
+        </test-method> <!-- lenovo -->
+        <test-method signature="order()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:06 IST" name="order" finished-at="2022-09-21T09:31:11 IST" duration-ms="5599" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dumb1 -->
-        <test-method signature="dumb2()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:26 IST" name="dumb2" finished-at="2022-09-19T14:40:33 IST" duration-ms="6871" status="PASS">
+        </test-method> <!-- order -->
+        <test-method signature="samsung()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:11 IST" name="samsung" finished-at="2022-09-21T09:31:16 IST" duration-ms="5113" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dumb2 -->
-        <test-method signature="dumb3()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:33 IST" name="dumb3" finished-at="2022-09-19T14:40:40 IST" duration-ms="6521" status="PASS">
+        </test-method> <!-- samsung -->
+        <test-method signature="supportnav()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:16 IST" name="supportnav" finished-at="2022-09-21T09:31:21 IST" duration-ms="5078" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dumb3 -->
-        <test-method signature="dumb4()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:40 IST" name="dumb4" finished-at="2022-09-19T14:40:45 IST" duration-ms="5661" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Lenovo"}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [315b35e958c1ee61a6208318be1f40bc, findElement {using=link text, value=Lenovo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54615/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 315b35e958c1ee61a6208318be1f40bc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Lenovo"}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [315b35e958c1ee61a6208318be1f40bc, findElement {using=link text, value=Lenovo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54615/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 315b35e958c1ee61a6208318be1f40bc
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at automation_mobileworld.HomePageLand.clickLenovo(HomePageLand.java:77)
-at automation_mobileworld.HomePo.dumb4(HomePo.java:93)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dumb4 -->
-        <test-method signature="dumb5()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:45 IST" name="dumb5" finished-at="2022-09-19T14:40:51 IST" duration-ms="6027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dumb5 -->
-        <test-method signature="dumb6()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:51 IST" name="dumb6" finished-at="2022-09-19T14:40:57 IST" duration-ms="5925" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Samsung"}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a57f5fd768ff7f09f6764004c337f5f, findElement {using=link text, value=Samsung}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54694/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a57f5fd768ff7f09f6764004c337f5f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Samsung"}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3a57f5fd768ff7f09f6764004c337f5f, findElement {using=link text, value=Samsung}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54694/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a57f5fd768ff7f09f6764004c337f5f
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at automation_mobileworld.HomePageLand.clickSamsung(HomePageLand.java:74)
-at automation_mobileworld.HomePo.dumb6(HomePo.java:117)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dumb6 -->
-        <test-method signature="dumb7()[pri:0, instance:automation_mobileworld.HomePo@3911c2a7]" started-at="2022-09-19T14:40:57 IST" name="dumb7" finished-at="2022-09-19T14:41:05 IST" duration-ms="8101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dumb7 -->
+        </test-method> <!-- supportnav -->
       </class> <!-- automation_mobileworld.HomePo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

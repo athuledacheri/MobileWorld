@@ -5,9 +5,7 @@
     <classes>
       <class name="automation_mobileworld.HomePo">
         <methods>
-          <include name="dumb4"/>
-          <include name="dumb0"/>
-          <include name="dumb6"/>
+          <include name="lenovo"/>
         </methods>
       </class> <!-- automation_mobileworld.HomePo -->
     </classes>

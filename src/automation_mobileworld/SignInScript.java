@@ -73,12 +73,13 @@ public class SignInScript {
 		return data;
 
 	}
+//	verify signup link
 
 	@Test
 
 	public void SignInLink() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:/Users/abdul.naduthodiyil/Downloads/chromedriver_win32/chromedriver.exe");
+				"C:\\Users\\athul.e\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		SignInPackage page = new SignInPackage(driver);
