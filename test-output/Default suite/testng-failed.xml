@@ -5,6 +5,7 @@
     <classes>
       <class name="automation_mobileworld.HomePo">
         <methods>
+          <include name="moreDetailsBtn"/>
           <include name="lenovo"/>
         </methods>
       </class> <!-- automation_mobileworld.HomePo -->

@@ -1,12 +1,11 @@
 package automation_mobileworld;
 
-import org.openqa.selenium.By;
+import java.util.Iterator;
+import java.util.Set;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 
@@ -26,7 +25,7 @@ public class HomePo {
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickAllMobilesNav();
-//    Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/mobile.html");
+    Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/mobile.html");
     driver.close();
 	}
     
@@ -39,7 +38,7 @@ public class HomePo {
     lp.goTo();
     lp.clickLatestNav();
     lp.clickApple();
-//    Assert.assertEquals(driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/#apple");
+    Assert.assertEquals(driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/#apple");
     driver.close();
 }
     
@@ -52,8 +51,13 @@ public class HomePo {
     lp.goTo();
     lp.clickSupportNav();
     lp.clickContactUs();
-   
-//    	 Assert.assertEquals(driver.getCurrentUrl()," https://mobileworld.banyanpro.com/contact.html");
+    
+    Set<String> windows=driver.getWindowHandles();
+    Iterator<String> it = windows.iterator();
+    it.next();
+    driver.switchTo().window(it.next());
+    
+    Assert.assertEquals(driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/contact.html");
     driver.close();
 }
    @Test
@@ -64,21 +68,11 @@ public class HomePo {
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickHomeNav();
-//    Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/index.html");
+    Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/index.html");
     driver.close();
 }
     
-  @Test
-	
-	public  void latestnav(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Downloads\\chromedriver_win32\\chromedriver.exe");
-    WebDriver driver = new ChromeDriver();
-    HomePageLand lp = new HomePageLand(driver);
-    lp.goTo();
-    lp.clickLatestNav();
-//    Assert.assertEquals(driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/index.html" );
-    driver.close();
-}
+
     @Test
 	
 	public  void lenovo(){
@@ -100,7 +94,12 @@ public class HomePo {
     lp.goTo();
     lp.clickSupportNav();
     lp.clickOrder();
-//    Assert.assertEquals(driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/order.html");
+    Set<String> windows=driver.getWindowHandles();
+    Iterator<String> it = windows.iterator();
+    it.next();
+    driver.switchTo().window(it.next());
+
+    Assert.assertEquals(driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/order.html");
     driver.close();
 }
     @Test
@@ -112,36 +111,24 @@ public class HomePo {
     lp.goTo();
     lp.clickLatestNav();
     lp.clickSamsung();
-//    Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/#samsung");
+    Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/#samsung");
     driver.close();
 }
     @Test
 	
-	public  void supportnav(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Downloads\\chromedriver_win32\\chromedriver.exe");
-    WebDriver driver = new ChromeDriver();
-    HomePageLand lp = new HomePageLand(driver);
-    lp.goTo();
-    lp.clickSupportNav();
+  	public  void moreDetailsBtn(){
+  	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Downloads\\chromedriver_win32\\chromedriver.exe");
+      WebDriver driver = new ChromeDriver();
+      HomePageLand lp = new HomePageLand(driver);
+      lp.clickMore();
+      Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/mobile.html");
+      driver.close();
+  }
+      
+
     
-    driver.close();
-}
     
-    
-//    @Test
-//	
-//   	public  void dumb8(){
-//   	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Downloads\\chromedriver_win32\\chromedriver.exe");
-//       WebDriver driver = new ChromeDriver();
-//       HomePageLand lp = new HomePageLand(driver);
-//       lp.goTo();
-//       lp.clickSupportNav();
-//       lp.clickContactUs();
-//       driver.close();
-//   }
-//    
-//    
-    
+  
     
 }
 

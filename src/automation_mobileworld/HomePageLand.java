@@ -29,6 +29,8 @@ public class HomePageLand {
 		@FindBy(css="div[id='navbarSupportedContent'] ul li:nth-child(4) a")
 		WebElement supportNav;
 		
+		@FindBy(xpath="//div[@id='apple']//div[2]//div[1]//div[1]//a[1]")
+		WebElement moreBtn;
 		
 		@FindBy(linkText="Samsung")
 		WebElement samsung;
@@ -85,6 +87,8 @@ public class HomePageLand {
 		public void clickContactUs() {
 			contactUs.click();
 
-
-}
+		}
+		public void clickMore() {
+			moreBtn.click();
+		}
 	}

@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-21T09:30:35 IST" name="Default suite" finished-at="2022-09-21T09:31:22 IST" duration-ms="46313">
+  <suite started-at="2022-10-03T09:41:18 IST" name="Default suite" finished-at="2022-10-03T09:42:06 IST" duration-ms="47306">
     <groups>
     </groups>
-    <test started-at="2022-09-21T09:30:35 IST" name="Default test" finished-at="2022-09-21T09:31:22 IST" duration-ms="46313">
+    <test started-at="2022-10-03T09:41:18 IST" name="Default test" finished-at="2022-10-03T09:42:06 IST" duration-ms="47306">
       <class name="automation_mobileworld.HomePo">
-        <test-method signature="allmobiles()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:35 IST" name="allmobiles" finished-at="2022-09-21T09:30:42 IST" duration-ms="7200" status="PASS">
+        <test-method signature="allmobiles()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:18 IST" name="allmobiles" finished-at="2022-10-03T09:41:29 IST" duration-ms="10716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allmobiles -->
-        <test-method signature="apple()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:42 IST" name="apple" finished-at="2022-09-21T09:30:47 IST" duration-ms="4531" status="PASS">
+        <test-method signature="apple()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:29 IST" name="apple" finished-at="2022-10-03T09:41:34 IST" duration-ms="4738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apple -->
-        <test-method signature="contact()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:47 IST" name="contact" finished-at="2022-09-21T09:30:52 IST" duration-ms="4570" status="PASS">
+        <test-method signature="contact()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:34 IST" name="contact" finished-at="2022-10-03T09:41:40 IST" duration-ms="5998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact -->
-        <test-method signature="homenav()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:52 IST" name="homenav" finished-at="2022-09-21T09:30:56 IST" duration-ms="4825" status="PASS">
+        <test-method signature="homenav()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:40 IST" name="homenav" finished-at="2022-10-03T09:41:45 IST" duration-ms="4721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homenav -->
-        <test-method signature="latestnav()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:30:56 IST" name="latestnav" finished-at="2022-09-21T09:31:01 IST" duration-ms="4515" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- latestnav -->
-        <test-method signature="lenovo()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:01 IST" name="lenovo" finished-at="2022-09-21T09:31:06 IST" duration-ms="4803" status="FAIL">
+        <test-method signature="lenovo()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:45 IST" name="lenovo" finished-at="2022-10-03T09:41:49 IST" duration-ms="4473" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://mobileworld.banyanpro.com/#lenovo] but found [https://mobileworld.banyanpro.com/]]]>
@@ -40,7 +36,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at automation_mobileworld.HomePo.lenovo(HomePo.java:91)
+at automation_mobileworld.HomePo.lenovo(HomePo.java:85)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -73,18 +69,88 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lenovo -->
-        <test-method signature="order()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:06 IST" name="order" finished-at="2022-09-21T09:31:11 IST" duration-ms="5599" status="PASS">
+        <test-method signature="moreDetailsBtn()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:49 IST" name="moreDetailsBtn" finished-at="2022-10-03T09:41:52 IST" duration-ms="2886" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='apple']//div[2]//div[1]//div[1]//a[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QT-INBG-LT0290', ip: '10.20.15.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d6b42c7337915c42a9e3d386672fa2, findElement {using=xpath, value=//div[@id='apple']//div[2]//div[1]//div[1]//a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50586/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9d6b42c7337915c42a9e3d386672fa2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='apple']//div[2]//div[1]//div[1]//a[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QT-INBG-LT0290', ip: '10.20.15.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d6b42c7337915c42a9e3d386672fa2, findElement {using=xpath, value=//div[@id='apple']//div[2]//div[1]//div[1]//a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\athul.e\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50586/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9d6b42c7337915c42a9e3d386672fa2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at automation_mobileworld.HomePageLand.clickMore(HomePageLand.java:92)
+at automation_mobileworld.HomePo.moreDetailsBtn(HomePo.java:123)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moreDetailsBtn -->
+        <test-method signature="order()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:52 IST" name="order" finished-at="2022-10-03T09:41:57 IST" duration-ms="5517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- order -->
-        <test-method signature="samsung()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:11 IST" name="samsung" finished-at="2022-09-21T09:31:16 IST" duration-ms="5113" status="PASS">
+        <test-method signature="samsung()[pri:0, instance:automation_mobileworld.HomePo@31368b99]" started-at="2022-10-03T09:41:57 IST" name="samsung" finished-at="2022-10-03T09:42:06 IST" duration-ms="8159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- samsung -->
-        <test-method signature="supportnav()[pri:0, instance:automation_mobileworld.HomePo@1725dc0f]" started-at="2022-09-21T09:31:16 IST" name="supportnav" finished-at="2022-09-21T09:31:21 IST" duration-ms="5078" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- supportnav -->
       </class> <!-- automation_mobileworld.HomePo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
