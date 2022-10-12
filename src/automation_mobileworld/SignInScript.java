@@ -3,17 +3,25 @@ package automation_mobileworld;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class SignInScript {
+	
+	
+	  WebDriver driver;
+		@AfterMethod
+	    public void closeBro() {
+	    BrowserFactory.QuitBrowser(driver);
+		}
 
 	// Verifying inputs
 
 	@Test(dataProvider = "Signin")
 	public void sign(String username, String Password) throws Exception {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\athul.e\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
+	    driver = new ChromeDriver();
 
 		SignInPackage page = new SignInPackage(driver);
 		page.goTo();
@@ -78,9 +86,8 @@ public class SignInScript {
 	@Test
 
 	public void SignInLink() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\athul.e\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
+		 driver = new ChromeDriver();
 
 		SignInPackage page = new SignInPackage(driver);
 		page.goTo();

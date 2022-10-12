@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation_mobileworld.HomePo">
+      <class name="automation_mobileworld.SignInScript">
         <methods>
-          <include name="moreDetailsBtn"/>
-          <include name="lenovo"/>
+          <include name="sign" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="closeBro"/>
         </methods>
-      </class> <!-- automation_mobileworld.HomePo -->
+      </class> <!-- automation_mobileworld.SignInScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

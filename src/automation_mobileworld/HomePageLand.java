@@ -50,6 +50,8 @@ public class HomePageLand {
 		@FindBy(css="button[class='btn btn-warning my-2 my-sm-0']")
 		WebElement signIn;
 		
+		@FindBy(xpath="//i[@class='fas fa-arrow-up']")
+		WebElement arrow;
 		
 		public void goTo() {
 			driver.get("https://mobileworld.banyanpro.com/");
@@ -90,5 +92,9 @@ public class HomePageLand {
 		}
 		public void clickMore() {
 			moreBtn.click();
+		}
+		
+		public void clickarrow() {
+			arrow.click();
 		}
 	}
