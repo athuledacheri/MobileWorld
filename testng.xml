@@ -2,5 +2,24 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+   <parameter name="BrowserName" value=""/>
+    <classes>
+         <class name = "automation_mobileworld.HomePo"> 
+          <methods>
+           <include name = "allmobiles"/>
+          </methods>
+         </class>
+        </classes>
+  </test> 
+  <test thread-count="5" name="Test1">
+      <parameter name="BrowserName" value=""/>
+
+    <classes>
+         <class name = "automation_mobileworld.HomePo"> 
+          <methods>
+           <exclude name = "allmobiles"/>
+          </methods>
+         </class>
+        </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

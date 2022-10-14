@@ -5,9 +5,13 @@ import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class HomePo {
@@ -15,13 +19,33 @@ public class HomePo {
 	@AfterMethod
     public void closeBro() {
     BrowserFactory.QuitBrowser(driver);
+    
 	}
+	
+	
+
+	 
+	 public void startapplication(String BrowserName) {
+         
+		if(BrowserName.equals("Chrome"))
+        {
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
+            driver= new ChromeDriver();
+            
+        }
+        else if(BrowserName.equals("Edge"))
+        {
+            System.setProperty("webdriver.edge.driver", "C:\\Users\\athul.e\\Documents\\edgedriver_win64\\msedgedriver.exe");
+            driver = new EdgeDriver();
+        }   
+                 
+	 }
 	
 @Test
 	
 	public  void homenav(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-     driver = new ChromeDriver();
+	startapplication("Chrome");
+     
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickHomeNav();
@@ -31,9 +55,7 @@ public class HomePo {
 @Test
 
 	public  void samsung(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-     driver = new ChromeDriver();
-    HomePageLand lp = new HomePageLand(driver);
+	startapplication("Edge");    HomePageLand lp = new HomePageLand(driver);
 	 lp.goTo();
 	 lp.clickLatestNav();
 	 lp.clickSamsung();
@@ -45,8 +67,9 @@ public class HomePo {
 @Test
 
 	public  void lenovo(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-    driver = new ChromeDriver();
+
+	startapplication("Chrome");
+
 	HomePageLand lp = new HomePageLand(driver);
 	lp.goTo();
 	lp.clickLatestNav();
@@ -59,8 +82,8 @@ public class HomePo {
 @Test
 
 	public  void apple(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-	driver = new ChromeDriver();
+
+	startapplication("Edge");
 	HomePageLand lp = new HomePageLand(driver);
 	lp.goTo();
 	lp.clickLatestNav();
@@ -75,8 +98,7 @@ public class HomePo {
 	@Test
 	
 	public  void allmobiles(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-    driver = new ChromeDriver();
+		startapplication("Edge");
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickAllMobilesNav();
@@ -87,8 +109,7 @@ public class HomePo {
     @Test
 	
 	public  void contact(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-    driver = new ChromeDriver();
+    	startapplication("Chrome");    
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickSupportNav();
@@ -106,8 +127,7 @@ public class HomePo {
     @Test
 	
 	public  void order(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-     driver = new ChromeDriver();
+    startapplication("Edge");   
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickSupportNav();
@@ -124,9 +144,7 @@ public class HomePo {
     @Test
 	
   	public  void moreDetailsBtn(){
-  	System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-      driver = new ChromeDriver();
-      HomePageLand lp = new HomePageLand(driver);
+    	startapplication("Chrome");      HomePageLand lp = new HomePageLand(driver);
       lp.clickMore();
       Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/mobile.html");
       driver.close();
@@ -136,14 +154,16 @@ public class HomePo {
  
  public void arrow() {
 	 
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-      driver = new ChromeDriver();
-     HomePageLand lp = new HomePageLand(driver);
+	 startapplication("Chrome");     HomePageLand lp = new HomePageLand(driver);
      lp.clickarrow();
      Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/index.html");
      driver.close();
 	 
  }
+ 
+ 
+ 
+ 
     
     
   
