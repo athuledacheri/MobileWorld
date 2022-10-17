@@ -9,6 +9,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -23,23 +24,24 @@ public class HomePo {
 	}
 	
 	
-
-	 
-	 public void startapplication(String BrowserName) {
-         
-		if(BrowserName.equals("Chrome"))
-        {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
-            driver= new ChromeDriver();
-            
-        }
-        else if(BrowserName.equals("Edge"))
-        {
-            System.setProperty("webdriver.edge.driver", "C:\\Users\\athul.e\\Documents\\edgedriver_win64\\msedgedriver.exe");
-            driver = new EdgeDriver();
-        }   
-                 
-	 }
+	@BeforeMethod
+	@Parameters("browser")
+		 
+		 public void startapplication(String BrowserName) {
+	         
+			if(BrowserName.equals("chrome"))
+	        {
+	            System.setProperty("webdriver.chrome.driver", "C:\\Users\\athul.e\\Documents\\chromedriver_win32\\chromedriver.exe");
+	            driver= new ChromeDriver();
+	            
+	        }
+	        else if(BrowserName.equals("edge"))
+	        {
+	            System.setProperty("webdriver.edge.driver", "C:\\Users\\athul.e\\Documents\\edgedriver_win64\\msedgedriver.exe");
+	            driver = new EdgeDriver();
+	        }   
+	                 
+		 }
 	
 @Test
 	
@@ -55,7 +57,8 @@ public class HomePo {
 @Test
 
 	public  void samsung(){
-	startapplication("Edge");    HomePageLand lp = new HomePageLand(driver);
+	startapplication("Edge");   
+	HomePageLand lp = new HomePageLand(driver);
 	 lp.goTo();
 	 lp.clickLatestNav();
 	 lp.clickSamsung();
