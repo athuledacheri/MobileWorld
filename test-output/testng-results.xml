@@ -2,12 +2,12 @@
 <testng-results ignored="9" total="18" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-17T15:32:42 IST" name="Suite" finished-at="2022-10-17T15:33:39 IST" duration-ms="57219">
+  <suite started-at="2022-10-21T12:28:31 IST" name="Suite" finished-at="2022-10-21T12:29:38 IST" duration-ms="67712">
     <groups>
     </groups>
-    <test started-at="2022-10-17T15:32:42 IST" name="Test" finished-at="2022-10-17T15:32:49 IST" duration-ms="7215">
+    <test started-at="2022-10-21T12:28:31 IST" name="Test" finished-at="2022-10-21T12:28:44 IST" duration-ms="13364">
       <class name="automation_mobileworld.HomePo">
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@61862a7f]" started-at="2022-10-17T15:32:42 IST" name="startapplication" finished-at="2022-10-17T15:32:47 IST" duration-ms="4663" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@61862a7f]" started-at="2022-10-21T12:28:31 IST" name="startapplication" finished-at="2022-10-21T12:28:40 IST" duration-ms="9663" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="allmobiles()[pri:0, instance:automation_mobileworld.HomePo@61862a7f]" started-at="2022-10-17T15:32:47 IST" name="allmobiles" finished-at="2022-10-17T15:32:49 IST" duration-ms="2189" status="PASS">
+        <test-method signature="allmobiles()[pri:0, instance:automation_mobileworld.HomePo@61862a7f]" started-at="2022-10-21T12:28:40 IST" name="allmobiles" finished-at="2022-10-21T12:28:44 IST" duration-ms="3423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allmobiles -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@61862a7f]" started-at="2022-10-17T15:32:49 IST" name="closeBro" finished-at="2022-10-17T15:32:49 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@61862a7f]" started-at="2022-10-21T12:28:44 IST" name="closeBro" finished-at="2022-10-21T12:28:44 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
       </class> <!-- automation_mobileworld.HomePo -->
     </test> <!-- Test -->
-    <test started-at="2022-10-17T15:32:49 IST" name="Test1" finished-at="2022-10-17T15:33:39 IST" duration-ms="49929">
+    <test started-at="2022-10-21T12:28:44 IST" name="Test1" finished-at="2022-10-21T12:29:38 IST" duration-ms="54284">
       <class name="automation_mobileworld.HomePo">
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:32:49 IST" name="startapplication" finished-at="2022-10-17T15:32:52 IST" duration-ms="3021" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:28:44 IST" name="startapplication" finished-at="2022-10-21T12:28:48 IST" duration-ms="3965" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="apple()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:32:52 IST" name="apple" finished-at="2022-10-17T15:32:55 IST" duration-ms="2703" status="PASS">
+        <test-method signature="apple()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:28:48 IST" name="apple" finished-at="2022-10-21T12:28:52 IST" duration-ms="4043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apple -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:32:55 IST" name="closeBro" finished-at="2022-10-17T15:32:55 IST" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:28:52 IST" name="closeBro" finished-at="2022-10-21T12:28:53 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:32:55 IST" name="startapplication" finished-at="2022-10-17T15:32:58 IST" duration-ms="3131" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:28:53 IST" name="startapplication" finished-at="2022-10-21T12:28:56 IST" duration-ms="3081" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,29 +60,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="arrow()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:32:58 IST" name="arrow" finished-at="2022-10-17T15:32:59 IST" duration-ms="739" status="FAIL">
+        <test-method signature="arrow()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:28:56 IST" name="arrow" finished-at="2022-10-21T12:28:57 IST" duration-ms="1026" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='fas fa-arrow-up']"}
-  (Session info: MicrosoftEdge=106.0.1370.42)
+  (Session info: MicrosoftEdge=106.0.1370.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+System info: host: 'QT-INBG-LT0290', ip: '10.20.15.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [65c43b42f973b53985d7bd0bcda9c173, findElement {using=xpath, value=//i[@class='fas fa-arrow-up']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.42, ms:edgeOptions: {debuggerAddress: localhost:50671}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50671/devtoo..., se:cdpVersion: 106.0.1370.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 65c43b42f973b53985d7bd0bcda9c173]]>
+Command: [d12e3a260c13316855bbb7a8b0494e0b, findElement {using=xpath, value=//i[@class='fas fa-arrow-up']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.47, ms:edgeOptions: {debuggerAddress: localhost:54613}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54613/devtoo..., se:cdpVersion: 106.0.1370.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d12e3a260c13316855bbb7a8b0494e0b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='fas fa-arrow-up']"}
-  (Session info: MicrosoftEdge=106.0.1370.42)
+  (Session info: MicrosoftEdge=106.0.1370.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+System info: host: 'QT-INBG-LT0290', ip: '10.20.15.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [65c43b42f973b53985d7bd0bcda9c173, findElement {using=xpath, value=//i[@class='fas fa-arrow-up']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.42, ms:edgeOptions: {debuggerAddress: localhost:50671}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50671/devtoo..., se:cdpVersion: 106.0.1370.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 65c43b42f973b53985d7bd0bcda9c173
+Command: [d12e3a260c13316855bbb7a8b0494e0b, findElement {using=xpath, value=//i[@class='fas fa-arrow-up']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.47, ms:edgeOptions: {debuggerAddress: localhost:54613}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54613/devtoo..., se:cdpVersion: 106.0.1370.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d12e3a260c13316855bbb7a8b0494e0b
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -101,7 +101,7 @@ at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(Def
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
 at automation_mobileworld.HomePageLand.clickarrow(HomePageLand.java:98)
-at automation_mobileworld.HomePo.arrow(HomePo.java:161)
+at automation_mobileworld.HomePo.arrow(HomePo.java:162)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -134,11 +134,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arrow -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:32:59 IST" name="closeBro" finished-at="2022-10-17T15:33:00 IST" duration-ms="564" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:28:57 IST" name="closeBro" finished-at="2022-10-21T12:28:57 IST" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:00 IST" name="startapplication" finished-at="2022-10-17T15:33:03 IST" duration-ms="3058" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:28:57 IST" name="startapplication" finished-at="2022-10-21T12:29:00 IST" duration-ms="2922" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,15 +149,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="contact()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:03 IST" name="contact" finished-at="2022-10-17T15:33:07 IST" duration-ms="4299" status="PASS">
+        <test-method signature="contact()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:00 IST" name="contact" finished-at="2022-10-21T12:29:05 IST" duration-ms="5080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:07 IST" name="closeBro" finished-at="2022-10-17T15:33:07 IST" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:05 IST" name="closeBro" finished-at="2022-10-21T12:29:06 IST" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:07 IST" name="startapplication" finished-at="2022-10-17T15:33:12 IST" duration-ms="4403" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:06 IST" name="startapplication" finished-at="2022-10-21T12:29:08 IST" duration-ms="2674" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,15 +168,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="homenav()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:12 IST" name="homenav" finished-at="2022-10-17T15:33:14 IST" duration-ms="2435" status="PASS">
+        <test-method signature="homenav()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:08 IST" name="homenav" finished-at="2022-10-21T12:29:13 IST" duration-ms="4684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homenav -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:14 IST" name="closeBro" finished-at="2022-10-17T15:33:15 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:13 IST" name="closeBro" finished-at="2022-10-21T12:29:13 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:15 IST" name="startapplication" finished-at="2022-10-17T15:33:17 IST" duration-ms="2771" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:13 IST" name="startapplication" finished-at="2022-10-21T12:29:16 IST" duration-ms="2672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="lenovo()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:17 IST" name="lenovo" finished-at="2022-10-17T15:33:20 IST" duration-ms="2516" status="FAIL">
+        <test-method signature="lenovo()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:16 IST" name="lenovo" finished-at="2022-10-21T12:29:20 IST" duration-ms="3392" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://mobileworld.banyanpro.com/#lenovo] but found [https://mobileworld.banyanpro.com/]]]>
@@ -200,7 +200,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at automation_mobileworld.HomePo.lenovo(HomePo.java:80)
+at automation_mobileworld.HomePo.lenovo(HomePo.java:79)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -233,11 +233,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lenovo -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:20 IST" name="closeBro" finished-at="2022-10-17T15:33:20 IST" duration-ms="464" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:20 IST" name="closeBro" finished-at="2022-10-21T12:29:20 IST" duration-ms="743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:20 IST" name="startapplication" finished-at="2022-10-17T15:33:24 IST" duration-ms="3824" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:20 IST" name="startapplication" finished-at="2022-10-21T12:29:23 IST" duration-ms="2600" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,29 +248,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="moreDetailsBtn()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:24 IST" name="moreDetailsBtn" finished-at="2022-10-17T15:33:24 IST" duration-ms="119" status="FAIL">
+        <test-method signature="moreDetailsBtn()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:23 IST" name="moreDetailsBtn" finished-at="2022-10-21T12:29:24 IST" duration-ms="1195" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='apple']//div[2]//div[1]//div[1]//a[1]"}
-  (Session info: MicrosoftEdge=106.0.1370.42)
+  (Session info: MicrosoftEdge=106.0.1370.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+System info: host: 'QT-INBG-LT0290', ip: '10.20.15.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b4cd7b55a88907e6da87143c0eb9f2a8, findElement {using=xpath, value=//div[@id='apple']//div[2]//div[1]//div[1]//a[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.42, ms:edgeOptions: {debuggerAddress: localhost:50863}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50863/devtoo..., se:cdpVersion: 106.0.1370.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b4cd7b55a88907e6da87143c0eb9f2a8]]>
+Command: [c5a7637e9a3e57e8115f76eae41785a9, findElement {using=xpath, value=//div[@id='apple']//div[2]//div[1]//div[1]//a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.47, ms:edgeOptions: {debuggerAddress: localhost:54804}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54804/devtoo..., se:cdpVersion: 106.0.1370.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5a7637e9a3e57e8115f76eae41785a9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='apple']//div[2]//div[1]//div[1]//a[1]"}
-  (Session info: MicrosoftEdge=106.0.1370.42)
+  (Session info: MicrosoftEdge=106.0.1370.47)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'QT-INBG-LT0290', ip: '10.20.15.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+System info: host: 'QT-INBG-LT0290', ip: '10.20.15.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b4cd7b55a88907e6da87143c0eb9f2a8, findElement {using=xpath, value=//div[@id='apple']//div[2]//div[1]//div[1]//a[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.42, ms:edgeOptions: {debuggerAddress: localhost:50863}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50863/devtoo..., se:cdpVersion: 106.0.1370.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b4cd7b55a88907e6da87143c0eb9f2a8
+Command: [c5a7637e9a3e57e8115f76eae41785a9, findElement {using=xpath, value=//div[@id='apple']//div[2]//div[1]//div[1]//a[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.47, ms:edgeOptions: {debuggerAddress: localhost:54804}, msedge: {msedgedriverVersion: 105.0.1343.53 (3a47f00402d5..., userDataDir: C:\Users\athul.e\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54804/devtoo..., se:cdpVersion: 106.0.1370.47, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5a7637e9a3e57e8115f76eae41785a9
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -322,11 +322,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moreDetailsBtn -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:24 IST" name="closeBro" finished-at="2022-10-17T15:33:25 IST" duration-ms="657" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:24 IST" name="closeBro" finished-at="2022-10-21T12:29:25 IST" duration-ms="549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:25 IST" name="startapplication" finished-at="2022-10-17T15:33:28 IST" duration-ms="2823" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:25 IST" name="startapplication" finished-at="2022-10-21T12:29:27 IST" duration-ms="2672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -337,15 +337,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="order()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:28 IST" name="order" finished-at="2022-10-17T15:33:32 IST" duration-ms="4264" status="PASS">
+        <test-method signature="order()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:27 IST" name="order" finished-at="2022-10-21T12:29:31 IST" duration-ms="3278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- order -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:32 IST" name="closeBro" finished-at="2022-10-17T15:33:33 IST" duration-ms="590" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:31 IST" name="closeBro" finished-at="2022-10-21T12:29:31 IST" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:33 IST" name="startapplication" finished-at="2022-10-17T15:33:36 IST" duration-ms="3305" status="PASS">
+        <test-method is-config="true" signature="startapplication(java.lang.String)[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:31 IST" name="startapplication" finished-at="2022-10-21T12:29:34 IST" duration-ms="2693" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,11 +356,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startapplication -->
-        <test-method signature="samsung()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:36 IST" name="samsung" finished-at="2022-10-17T15:33:39 IST" duration-ms="2879" status="PASS">
+        <test-method signature="samsung()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:34 IST" name="samsung" finished-at="2022-10-21T12:29:38 IST" duration-ms="3949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- samsung -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-17T15:33:39 IST" name="closeBro" finished-at="2022-10-17T15:33:39 IST" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:automation_mobileworld.HomePo@1b7cc17c]" started-at="2022-10-21T12:29:38 IST" name="closeBro" finished-at="2022-10-21T12:29:38 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->

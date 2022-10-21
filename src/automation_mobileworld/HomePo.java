@@ -46,7 +46,6 @@ public class HomePo {
 @Test
 	
 	public  void homenav(){
-	startapplication("Chrome");
      
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
@@ -57,7 +56,7 @@ public class HomePo {
 @Test
 
 	public  void samsung(){
-	startapplication("Edge");   
+	   
 	HomePageLand lp = new HomePageLand(driver);
 	 lp.goTo();
 	 lp.clickLatestNav();
@@ -71,7 +70,7 @@ public class HomePo {
 
 	public  void lenovo(){
 
-	startapplication("Chrome");
+//	startapplication("Chrome");
 
 	HomePageLand lp = new HomePageLand(driver);
 	lp.goTo();
@@ -86,7 +85,7 @@ public class HomePo {
 
 	public  void apple(){
 
-	startapplication("Edge");
+//	startapplication("Edge");
 	HomePageLand lp = new HomePageLand(driver);
 	lp.goTo();
 	lp.clickLatestNav();
@@ -101,7 +100,7 @@ public class HomePo {
 	@Test
 	
 	public  void allmobiles(){
-		startapplication("Edge");
+//		startapplication("Edge");
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickAllMobilesNav();
@@ -112,7 +111,7 @@ public class HomePo {
     @Test
 	
 	public  void contact(){
-    	startapplication("Chrome");    
+//    	startapplication("Chrome");    
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickSupportNav();
@@ -130,7 +129,7 @@ public class HomePo {
     @Test
 	
 	public  void order(){
-    startapplication("Edge");   
+//    startapplication("Edge");   
     HomePageLand lp = new HomePageLand(driver);
     lp.goTo();
     lp.clickSupportNav();
@@ -147,7 +146,8 @@ public class HomePo {
     @Test
 	
   	public  void moreDetailsBtn(){
-    	startapplication("Chrome");      HomePageLand lp = new HomePageLand(driver);
+//    	startapplication("Chrome");   
+    	HomePageLand lp = new HomePageLand(driver);
       lp.clickMore();
       Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/mobile.html");
       driver.close();
@@ -157,7 +157,8 @@ public class HomePo {
  
  public void arrow() {
 	 
-	 startapplication("Chrome");     HomePageLand lp = new HomePageLand(driver);
+//	 startapplication("Chrome");   
+	 HomePageLand lp = new HomePageLand(driver);
      lp.clickarrow();
      Assert.assertEquals( driver.getCurrentUrl(),"https://mobileworld.banyanpro.com/index.html");
      driver.close();

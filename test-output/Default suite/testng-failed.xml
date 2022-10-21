@@ -5,10 +5,17 @@
     <classes>
       <class name="automation_mobileworld.HomePo">
         <methods>
+          <include name="startapplication"/>
           <include name="arrow"/>
           <include name="closeBro"/>
+          <include name="apple"/>
           <include name="moreDetailsBtn"/>
+          <include name="samsung"/>
+          <include name="contact"/>
+          <include name="allmobiles"/>
           <include name="lenovo"/>
+          <include name="order"/>
+          <include name="homenav"/>
         </methods>
       </class> <!-- automation_mobileworld.HomePo -->
     </classes>
